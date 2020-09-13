@@ -1,0 +1,318 @@
+body{
+  background-image: url(file:///C:/Users/conta/Downloads/WhatsApp%20Image%202020-09-13%20at%202.51.01%20PM.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.responsive{
+  animation: fadeIn 30s;
+  -webkit-background-size:cover;
+}
+
+
+h1{
+  text-align: center; 
+}
+.header {
+  opacity: 0.8;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+img.one{
+  height: auto;
+  width: 20%;
+  border-radius: 20%;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+@media only screen and (max-width: 700px){
+  .responsive{
+    width: 100%;
+  }
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  width: 40%;
+}
+
+.card-1 {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: green;
+  opacity: 0.8;
+  margin-left: 90px;
+  border-radius: 5%;
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: red;
+  margin-top: 100px;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: green;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: red;
+  opacity: 0.8;
+  margin-left: 90px;
+  border-radius: 5%;
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: green;
+  opacity: 0.8;
+  margin-left: 90px;
+  border-radius: 5%;
+}
+.card-6 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: red;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+.card-7 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: green;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+.card-8 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: red;
+  opacity: 0.8;
+  margin-left: 90px;
+  border-radius: 5%;
+}
+
+.card-1:hover { background-color: #E6FB04;}
+
+.card-2:hover { background-color: #FF6EC7;}
+
+.card-3:hover { background-color: #E6FB04;}
+
+.card-4:hover { background-color: #FF6EC7;}
+
+.card-5:hover { background-color: #E6FB04;}
+
+.card-6:hover { background-color: #FF6EC7;}
+
+.card-7:hover { background-color: #E6FB04;}
+
+.card-8:hover { background-color: #FF6EC7;}
+
+
+p{
+  color:white;
+  font: normal 16px/1.5em Goudy, Georgia, serif;
+}
+img{
+  width: 50%;
+  height: auto;
+}
+
+.head{
+  text-align: center;
+  padding-top: 20px;
+  color: #00FFFF;
+
+}
+.button button1{
+  margin-left: 40%;
+  background-color: orange ;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.button1 {
+  background: linear-gradient(to right, #add8e6, orange);
+  color: black; 
+  border: 2px solid #4CAF50;
+  margin-left: 35%;
+  border-radius: 5%;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 5%;
+}
+
+
+.total{
+  color: : white;
+}
+.desh{
+  color: #00FFFF;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 250%;
+}
+
+.title {
+  color: white;
+  padding: 20px;
+}
+
+.subtitle {
+  padding: 20px;
+  font-size: 150%;
+  color: white;
+}
+
+div {
+  padding: 20px;
+}
+
+.stats-container {
+  text-align: center;
+  float: right;
+  display: inline-block;
+}
+.location-container {
+  display: inline-block;
+}
+.data-container {
+  border: 2px solid #feb47b;
+  margin-right: 30%;
+  margin-left: 30%;
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+}
+h5{
+  font-size: 85%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+
+}
+.respect{
+  margin-left: 27%;
+}
+.respect4{
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  text-align: center;
+
+}
+.thank{
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  color: gold;
+}
+.dhr {
+  background: linear-gradient(to right, #add8e6, orange);
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+.copyrights{
+  text-align: center;
+  font-size: 15px;
+}
